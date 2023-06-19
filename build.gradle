@@ -30,11 +30,11 @@ tasks.named('sonarqube').configure {
 }
 
 sonarqube {
-	properties {
-		property "sonar.projectKey", "ecchavez_Demo"
-		property "sonar.organization", "ecchavez"
-		property "sonar.host.url", "https://sonarcloud.io"
-	}
+  properties {
+    property "sonar.projectKey", "ecchavez_Jenkins"
+    property "sonar.organization", "ecchavez"
+    property "sonar.host.url", "https://sonarcloud.io"
+  }
 }
 
 test.finalizedBy jacocoTestReport
